@@ -1,2 +1,2 @@
 # simple-server
-A simple server test
+A simple server
