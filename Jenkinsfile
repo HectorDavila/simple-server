@@ -1,7 +1,7 @@
 pipeline{
     agent any
 
-    tools { docker "Docker" }
+    tools { dockerTool "Docker" }
     
     environment  {
         DOCKERHUB_CREDENTIALS=credentials('dockerhub-hdavila')
