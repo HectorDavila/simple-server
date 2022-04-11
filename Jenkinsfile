@@ -10,7 +10,7 @@ pipeline{
     stages {
         stage('build'){
             steps{
-                sh "docker build -t hdavila7/simple-server:latest"
+                sh "docker build -t hdavila7/simple-server:latest ."
             }
         }
 
